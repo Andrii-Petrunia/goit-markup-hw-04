@@ -610,7 +610,14 @@ body {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    transform: translateY(0);
+}
+
+.potrfolio-link:hover .portfolio-cover-text {
+  transform: translateY(0%);
+}
+
+.potrfolio-link:focus .portfolio-cover-text {
+  transform: translateY(0%);
 }
 
 .portfolio-card-content {
@@ -628,14 +635,12 @@ body {
   margin-bottom: 8px;
 }
 
-
 .portfolio-text {
   color: var(--slate, #434455);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
 
 /**---------- MODAL ---------- */
 
