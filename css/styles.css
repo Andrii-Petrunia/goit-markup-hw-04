@@ -581,11 +581,11 @@ body {
 }
 
 .portfolio-card:hover .portfolio-cover-text {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .portfolio-card:focus .portfolio-cover-text {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .portfolio-cover-text {
